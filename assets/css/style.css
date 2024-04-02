@@ -47,9 +47,12 @@ body{
     
 }
 
-nav__logo{
+.nav__logo{
     font-size: 1.5em;
     font-weight: 900;
+    background-color: blue;
+    color: white;
+    text-align: center;
 }
 .nav__container{
     display: flex;
@@ -58,6 +61,7 @@ nav__logo{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 .nav__label, .nav__input{
     display: none;
@@ -94,6 +98,14 @@ nav__logo{
     text-align: center;
     color: cadetblue;
 }
+
+footer{
+    text-align: right;
+    background-color: black;
+    color: red;
+
+}
+
 .nais{
     top: 80px;
     align-items: center;
